@@ -138,7 +138,7 @@ unsigned __stdcall clientSession(void* data)
 		// Should point to parent dir which contains a single file, code will pull the file name dynamically
 		std::string tcpFileDir = "C:\\tcpin";
 
-		// Or if you want to append directly to the Splunk tcpin file, it is located here (not reccommended, you should write elsewhere and santize/append manually)
+		// Or if you want to append directly to the Splunk tcpin file, the pseudorandomly named file is located here (not recommended, you should write elsewhere and santize/append manually)
 		// std::string tcpFileDir = "C:\\Program Files\\SplunkUniversalForwarder\\var\\run\\splunk\\tcpin";
 	
 		// Var to store the full path to the single file in the parent dir as defined above
